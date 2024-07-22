@@ -15,6 +15,9 @@ The core functionalities are built using Rust enums and pattern matching to hand
 - Dynamic Calculation: Based on the user's input, an Operation enum instance is created, and the calculate function is called to perform the operation.
 - Result Display: The result of the calculation is printed to the console.
 
+## Prerequisites
+- Make sure you have installed [rust and cargo](https://doc.rust-lang.org/book/ch01-01-installation.html#installation)
+
 ## Getting Started
 This is an example of how you can set up this project locally. To get a local copy up and running, follow these steps.
 
