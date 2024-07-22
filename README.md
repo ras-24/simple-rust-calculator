@@ -26,7 +26,7 @@ This is an example of how you can set up this project locally. To get a local co
    ```sh
    git clone https://github.com/ras-24/simple-rust-calculator.git
    ```
-2. Go to lottery contract directory
+2. Go to folder directory
    ```sh
    cd simple-rust-calculator
    ```
