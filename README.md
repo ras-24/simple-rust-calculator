@@ -27,24 +27,14 @@ This is an example of how you can set up this project locally. To get a local co
    ```sh
    cd simple-rust-calculator
    ```
-3. Install NPM packages
+3. Compile the code
    ```sh
-   npm install
+   cargo build
    ```
-4. On deploy.js file, please change to your seed phrase and infura endpoint
+4. Run the compiled code
    ```sh
-   const provider = new HDWalletProvider(
-      'YOUR_METAMASK_SEED_PHRASE',
-      // remember to change this to your own phrase!
-      'YOUR_INFURA_SEPOLIA_URL_ENDPOINT'
-      // remember to change this to your own endpoint!
-   );
+   cargo run
    ```
-5. Deploy lottery contract
-   ```sh
-   node deploy.js
-   ```
-6. Copy **Contract Deployed Address** and **Contract ABI** to [lottery contract frontend](https://github.com/ras-24/lottery-react-contract/blob/main/src/lottery.js)
 
 ## License
 
